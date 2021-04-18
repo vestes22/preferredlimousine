@@ -1,0 +1,68 @@
+/*
+ Theme Name:   Preferred Limousine LLC
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Egesto Lite Child Theme
+ Author:       Virginia Estes
+ Author URI:   http://example.com
+ Template:     egesto-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  egestolightchild
+*/
+
+h1.entry-title {
+    font-family: Garamond, serif;
+    letter-spacing: 4px;
+    font-size: 36px;
+}
+
+h2.site-description { 
+    font-family: Garamond, serif;
+    letter-spacing: 3px;
+}
+
+#bottomgradient { 
+    height: 100%;
+}
+
+#footerinner {
+    background-image: linear-gradient(#212121, #192841, #192841, #192841, #192841);
+}
+
+#copyinfo {
+    background-color: #192841;
+}
+
+.button-div {
+    margin-top: 30px;
+}
+
+.button { 
+  background-color: #192841;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.site-title {
+    display: none;
+}
+
+p {
+    line-height: 2.0;
+    font-size: 20px;
+    font-family: Garamond, serif;
+}
+
+.frm_primary_label {
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
